@@ -1,6 +1,3 @@
-Here's the updated `README.md` including that Passport.js is used for authentication:
-
-```markdown
 # ComfortCove
 
 **ComfortCove** is a web application for managing and listing short-term rental properties, similar to Airbnb. Users can list their properties, manage bookings, and view reviews from other users. The project follows the **MVC architecture** (Model-View-Controller) and includes full **CRUD API** functionality. It is built using Node.js, MongoDB, Cloudinary for image storage, and various third-party APIs such as Mapbox for geocoding. The front-end is styled with **CSS** and **Bootstrap**.
@@ -26,32 +23,7 @@ The project is live at: [https://comfortcovee.onrender.com](https://comfortcovee
 1. Clone the repository:
    ```bash
    git clone https://github.com/anuragsingh22485/Comfort-Cove.git
-   ```
 
-2. Navigate into the project directory:
-   ```bash
-   cd ComfortCove
-   ```
-
-3. Install the dependencies:
-   ```bash
-   npm install
-   ```
-
-4. Create a `.env` file in the project root and add the following variables:
-   ```env
-   ATLASDB_URL=your_mongodb_url
-   MAP_TOKEN=your_mapbox_token
-   CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-   CLOUDINARY_API_KEY=your_cloudinary_api_key
-   CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-   SESSION_SECRET=your_secret_key
-   ```
-
-5. Start the application:
-   ```bash
-   npm start
-   ```
 
 ## CRUD API Endpoints
 

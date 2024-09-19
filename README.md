@@ -93,6 +93,3 @@ Explore the listings at: [https://comfortcovee.onrender.com/listings](https://co
 - **ejs**: Templating engine
 - **mongoose-paginate**: Pagination for Mongoose queries
 
-```
-
-Let me know if there's anything else you'd like to adjust!

@@ -23,16 +23,16 @@ The project is live at: [https://comfortcovee.onrender.com](https://comfortcovee
 1. Clone the repository:
    ```bash
    git clone https://github.com/anuragsingh22485/Comfort-Cove.git
-
+   ```
  2. Navigate into the project directory:
    ```bash
    cd ComfortCove
-
+   ```
 3. Install the dependencies:
    ```bash
    npm install
-
- 3. Create a .env file in the project root and add the following variables:
+   ```
+ 4. Create a .env file in the project root and add the following variables:
    ```bash
    ATLASDB_URL=your_mongodb_url
    MAP_TOKEN=your_mapbox_token
@@ -40,11 +40,11 @@ The project is live at: [https://comfortcovee.onrender.com](https://comfortcovee
    CLOUDINARY_API_KEY=your_cloudinary_api_key
    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
    SESSION_SECRET=your_secret_key
-
+   ```
 5. Start the application:
    ```bash
    npm start
-
+   ```
 ## CRUD API Endpoints
 
 - **Create Listing**: `POST /listings`

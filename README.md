@@ -5,8 +5,8 @@ Here's the updated `README.md` including that Passport.js is used for authentica
 
 **ComfortCove** is a web application for managing and listing short-term rental properties, similar to Airbnb. Users can list their properties, manage bookings, and view reviews from other users. The project follows the **MVC architecture** (Model-View-Controller) and includes full **CRUD API** functionality. It is built using Node.js, MongoDB, Cloudinary for image storage, and various third-party APIs such as Mapbox for geocoding. The front-end is styled with **CSS** and **Bootstrap**.
 
-The project is live at: [https://comfortcovee.onrender.com](https://comfortcovee.onrender.com)  
-Explore the listings at: [https://comfortcovee.onrender.com/listings](https://comfortcovee.onrender.com/listings)
+The project is live at: [https://comfortcovee.onrender.com](https://comfortcovee.onrender.com/listings)
+
 
 ## Features
 

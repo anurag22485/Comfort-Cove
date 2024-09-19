@@ -24,6 +24,26 @@ The project is live at: [https://comfortcovee.onrender.com](https://comfortcovee
    ```bash
    git clone https://github.com/anuragsingh22485/Comfort-Cove.git
 
+ 2. Navigate into the project directory:
+   ```bash
+   cd ComfortCove
+
+3. Install the dependencies:
+   ```bash
+   npm install
+
+ 3. Create a .env file in the project root and add the following variables:
+   ```bash
+   ATLASDB_URL=your_mongodb_url
+   MAP_TOKEN=your_mapbox_token
+   CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+   CLOUDINARY_API_KEY=your_cloudinary_api_key
+   CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+   SESSION_SECRET=your_secret_key
+
+5. Start the application:
+   ```bash
+   npm start
 
 ## CRUD API Endpoints
 
@@ -63,5 +83,5 @@ The project is live at: [https://comfortcovee.onrender.com](https://comfortcovee
 - **bootstrap**: Front-end framework
 - **body-parser**: Middleware for parsing request bodies
 - **ejs**: Templating engine
-- **mongoose-paginate**: Pagination for Mongoose queries
+
 
